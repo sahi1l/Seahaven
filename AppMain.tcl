@@ -346,7 +346,7 @@ proc Help {} {
 	toplevel .help
 	label .help.rules -bg gray -wraplength 500
 	pack .help.rules
-	set F [open [file join $dir rules] RDONLY]
+	set F [open [file join $dir "rules.txt"] RDONLY]
 	set text [read $F]
 	close $F
 	.help.rules config -text $text
