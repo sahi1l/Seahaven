@@ -1,0 +1,32 @@
+Seahaven Towers is a game invented by Art Cabral.
+
+The game is made up of 10 tableau piles, 4 reserve slots (on the left), and 4
+foundation piles (on the right).  At the beginning of the game, five
+cards are placed face up in each tableau pile, and two cards are
+placed in reserve slots, leaving two reserve slots empty.
+
+The goal of the game is to build the foundations from Ace to King.
+
+Only the top cards of the tableau and the cards in the reserve are
+available for play, and only one card at a time may be moved.  Cards
+may be moved onto a top tableau card which is of the same suit and one
+higher in rank (for instance, 5 of spades onto 6 of spades).  Empty
+tableau positions may be filled with kings.  Cards can also be moved
+to the reserve if there is room: only four cards may be in the reserve
+at any one time.  Cards may also be moved to the foundation which
+builds upwards in suit, as usual.
+
+In this program, cards will be moved to the foundation automatically,
+and cards on the foundation are out of play.  You may move a card by
+pressing the letter corresponding to its position; the game will move
+that card to the appropriate tableau position, if one is available, or
+to the reserve otherwise, if possible.  Pressing shift along with the
+letter will move the card directly to the reserve.  As a shortcut, the
+game will allow you to move sequences of cards in suit, depending on
+the number of open reserve places: if the reserve is full, only one
+card can be moved at a time; if the reserve has one slot open, two
+cards can be moved at a time, and so forth.  
+
+Changing the Difficulty from "Normal" to "Cheat" allows you to move sequences of any size at any time.  You can turn Cheating on at any time, even in the middle of a game; "# of cheats" is the number of cards moved that couldn't have been moved normally, during the current game.  Note that undoing does not roll back "# of cheats": once a cheater, always a cheater.  :)
+
+You may also move a card by clicking on it: it will move automatically if there is an appropriate slot open (no dragging necessary).
